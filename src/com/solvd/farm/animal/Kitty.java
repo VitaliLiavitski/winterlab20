@@ -29,4 +29,10 @@ public class Kitty extends Cat {
 		System.out.println("Voice: " + this.voice);
 		System.out.println("Size: " + this.size);
 	}
+	
+	@Override
+	public String voice() {
+		return "Piy-piy";
+		
+	}
 }

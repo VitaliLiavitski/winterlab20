@@ -36,5 +36,7 @@ public abstract class Bird {
 	public int getWingSize() {
 		return wingSize;
 	}
+	
+	public abstract String getName();
 
 }
