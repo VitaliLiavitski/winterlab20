@@ -19,34 +19,43 @@ public class Executor {
 		Bird chicken = new Chicken("Ryba");
 		Bird turkey = new Turkey("Pol");
 		
+		Animal puppy = new Puppy();
+		
+		Cat cat1 = new Cat("Barsik");
+		
+		
 		Hangar hangar = new Hangar();
 		
 		hangar.addAnimal(cat);
+		hangar.addAnimal(cat);
+		hangar.addAnimal(cat);
+		hangar.addAnimal(cat);
+		hangar.addAnimal(cat);
+		hangar.addAnimal(dog);
+		hangar.addAnimal(puppy);
+		hangar.addAnimal(cat1);
+		
 		hangar.addBird(chicken);
+		hangar.addBird(chicken);
+		hangar.addBird(chicken);
+		hangar.addBird(chicken);
+		hangar.addBird(chicken);
+		hangar.addBird(turkey);
+		
+		
+		hangar.addUniqeAnimal(cat);
+		hangar.addUniqeAnimal(cat);
+		hangar.addUniqeAnimal(cat);
+		hangar.addUniqeAnimal(cat);
+		hangar.addUniqeAnimal(cat);
+		hangar.addUniqeAnimal(dog);
+		hangar.addUniqeAnimal(puppy);
+		hangar.addUniqeAnimal(cat1);
+		hangar.addUniqeAnimal(dog);
+		hangar.addUniqeAnimal(puppy);
+		hangar.addUniqeAnimal(cat1);
+		
 		hangar.pritnIfo();
-		
-//		hangar.addAnimal(dog);
-//		hangar.pritnIfo();
-		
-		
-		System.out.println(dog.voice());
-		
-		Animal puppy = new Puppy();
-		
-		System.out.println(puppy.voice());
-		
-		
-		cat.run();
-		
-		Cat cat1 = new Cat();
-		cat1.run(false);
-		
-		System.out.println("this is string!");
-		
-		System.out.println(8);
-		
-		System.out.println(cat1);
-		
 	}
 
 }

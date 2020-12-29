@@ -35,4 +35,9 @@ public class Kitty extends Cat {
 		return "Piy-piy";
 		
 	}
+	
+	@Override
+	public String toString() {
+		return "Kitty ";
+	}
 }

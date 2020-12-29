@@ -32,5 +32,10 @@ public class Dog implements Animal {
 	public String voice() {
 		return "Gav-Gav";
 	}
+	
+	@Override
+	public String toString() {
+		return "Dog " + this.name;
+	}
 
 }

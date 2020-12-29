@@ -27,6 +27,11 @@ public class Cat implements Animal {
 	public void printInfo() {
 		System.out.println("Cat!!!");
 	}
+	
+	@Override
+	public String toString() {
+		return "Cat " + this.name;
+	}
 
 	@Override
 	public String getName() {

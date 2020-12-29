@@ -31,5 +31,10 @@ public class Chicken extends Bird {
 	public String getName() {
 		return this.name;
 	}
+	
+	@Override
+	public String toString() {
+		return "Chicken " + this.name;
+	}
 
 }

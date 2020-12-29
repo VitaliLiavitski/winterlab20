@@ -6,5 +6,10 @@ public class Puppy extends Dog {
 	public String voice() {
 		return "Piy-piy";
 	}
+	
+	@Override
+	public String toString() {
+		return "Puppy ";
+	}
 
 }
